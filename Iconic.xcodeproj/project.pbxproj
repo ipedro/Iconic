@@ -14,6 +14,26 @@
 		EB97417424105105008BA905 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB97417224105105008BA905 /* Main.storyboard */; };
 		EB97418024105105008BA905 /* IconicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB97417F24105105008BA905 /* IconicTests.swift */; };
 		EB97418B24105105008BA905 /* IconicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB97418A24105105008BA905 /* IconicUITests.swift */; };
+		EBE22359241972F2001772AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE22358241972F2001772AF /* AppDelegate.swift */; };
+		EBE2235B241972F2001772AF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE2235A241972F2001772AF /* SceneDelegate.swift */; };
+		EBE2235D241972F2001772AF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE2235C241972F2001772AF /* ContentView.swift */; };
+		EBE2235F241972F4001772AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBE2235E241972F4001772AF /* Assets.xcassets */; };
+		EBE22362241972F5001772AF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBE22361241972F5001772AF /* Preview Assets.xcassets */; };
+		EBE22365241972F5001772AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBE22363241972F5001772AF /* LaunchScreen.storyboard */; };
+		EBE22370241972F5001772AF /* Iconic__iOS_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE2236F241972F5001772AF /* Iconic__iOS_Tests.swift */; };
+		EBE2237B241972F5001772AF /* Iconic__iOS_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE2237A241972F5001772AF /* Iconic__iOS_UITests.swift */; };
+		EBE223BB2419758B001772AF /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBE223B92419758B001772AF /* Interface.storyboard */; };
+		EBE223BD2419758C001772AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBE223BC2419758C001772AF /* Assets.xcassets */; };
+		EBE223C42419758C001772AF /* Watch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = EBE223C32419758C001772AF /* Watch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		EBE223C92419758C001772AF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE223C82419758C001772AF /* ContentView.swift */; };
+		EBE223CB2419758C001772AF /* HostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE223CA2419758C001772AF /* HostingController.swift */; };
+		EBE223CD2419758C001772AF /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE223CC2419758C001772AF /* ExtensionDelegate.swift */; };
+		EBE223CF2419758C001772AF /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE223CE2419758C001772AF /* NotificationController.swift */; };
+		EBE223D12419758D001772AF /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE223D02419758D001772AF /* NotificationView.swift */; };
+		EBE223D32419758D001772AF /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE223D22419758D001772AF /* ComplicationController.swift */; };
+		EBE223D52419758D001772AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBE223D42419758D001772AF /* Assets.xcassets */; };
+		EBE223D82419758D001772AF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBE223D72419758D001772AF /* Preview Assets.xcassets */; };
+		EBE223DD2419758D001772AF /* Watch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = EBE223B72419758B001772AF /* Watch.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,10 +51,63 @@
 			remoteGlobalIDString = EB97416524105102008BA905;
 			remoteInfo = Iconic;
 		};
+		EBE2236C241972F5001772AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB97415E24105102008BA905 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBE22355241972F2001772AF;
+			remoteInfo = "Iconic (iOS)";
+		};
+		EBE22377241972F5001772AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB97415E24105102008BA905 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBE22355241972F2001772AF;
+			remoteInfo = "Iconic (iOS)";
+		};
+		EBE223C52419758C001772AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB97415E24105102008BA905 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBE223C22419758C001772AF;
+			remoteInfo = "Watch Extension";
+		};
+		EBE223DB2419758D001772AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB97415E24105102008BA905 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBE223B62419758B001772AF;
+			remoteInfo = Watch;
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		EBE223B42419731F001772AF /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				EBE223DD2419758D001772AF /* Watch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBE223E12419758D001772AF /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				EBE223C42419758C001772AF /* Watch Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		EB97416624105102008BA905 /* Iconic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Iconic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB97416624105102008BA905 /* Iconic (Mac).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Iconic (Mac).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB97416924105102008BA905 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EB97416B24105102008BA905 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EB97416D24105105008BA905 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -42,12 +115,41 @@
 		EB97417324105105008BA905 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EB97417524105105008BA905 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB97417624105105008BA905 /* Iconic.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Iconic.entitlements; sourceTree = "<group>"; };
-		EB97417B24105105008BA905 /* IconicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IconicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB97417B24105105008BA905 /* Iconic (Mac) Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Iconic (Mac) Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB97417F24105105008BA905 /* IconicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconicTests.swift; sourceTree = "<group>"; };
 		EB97418124105105008BA905 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EB97418624105105008BA905 /* IconicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IconicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB97418624105105008BA905 /* Iconic (Mac) UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Iconic (Mac) UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB97418A24105105008BA905 /* IconicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconicUITests.swift; sourceTree = "<group>"; };
 		EB97418C24105105008BA905 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBE22356241972F2001772AF /* Iconic (iOS).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Iconic (iOS).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBE22358241972F2001772AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EBE2235A241972F2001772AF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EBE2235C241972F2001772AF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EBE2235E241972F4001772AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EBE22361241972F5001772AF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EBE22364241972F5001772AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EBE22366241972F5001772AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBE2236B241972F5001772AF /* Iconic (iOS)Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Iconic (iOS)Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBE2236F241972F5001772AF /* Iconic__iOS_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Iconic__iOS_Tests.swift; sourceTree = "<group>"; };
+		EBE22371241972F5001772AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBE22376241972F5001772AF /* Iconic (iOS)UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Iconic (iOS)UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBE2237A241972F5001772AF /* Iconic__iOS_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Iconic__iOS_UITests.swift; sourceTree = "<group>"; };
+		EBE2237C241972F5001772AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBE223B72419758B001772AF /* Watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Watch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBE223BA2419758B001772AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		EBE223BC2419758C001772AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EBE223BE2419758C001772AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBE223C32419758C001772AF /* Watch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Watch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBE223C82419758C001772AF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EBE223CA2419758C001772AF /* HostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostingController.swift; sourceTree = "<group>"; };
+		EBE223CC2419758C001772AF /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		EBE223CE2419758C001772AF /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		EBE223D02419758D001772AF /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		EBE223D22419758D001772AF /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		EBE223D42419758D001772AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EBE223D72419758D001772AF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EBE223D92419758D001772AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBE223DA2419758D001772AF /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +174,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EBE22353241972F2001772AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBE22368241972F5001772AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBE22373241972F5001772AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBE223C02419758C001772AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -81,6 +211,11 @@
 				EB97416824105102008BA905 /* Iconic */,
 				EB97417E24105105008BA905 /* IconicTests */,
 				EB97418924105105008BA905 /* IconicUITests */,
+				EBE22357241972F2001772AF /* Iconic (iOS) */,
+				EBE2236E241972F5001772AF /* Iconic (iOS)Tests */,
+				EBE22379241972F5001772AF /* Iconic (iOS)UITests */,
+				EBE223B82419758B001772AF /* Watch */,
+				EBE223C72419758C001772AF /* Watch Extension */,
 				EB97416724105102008BA905 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,9 +223,14 @@
 		EB97416724105102008BA905 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EB97416624105102008BA905 /* Iconic.app */,
-				EB97417B24105105008BA905 /* IconicTests.xctest */,
-				EB97418624105105008BA905 /* IconicUITests.xctest */,
+				EB97416624105102008BA905 /* Iconic (Mac).app */,
+				EB97417B24105105008BA905 /* Iconic (Mac) Tests.xctest */,
+				EB97418624105105008BA905 /* Iconic (Mac) UITests.xctest */,
+				EBE22356241972F2001772AF /* Iconic (iOS).app */,
+				EBE2236B241972F5001772AF /* Iconic (iOS)Tests.xctest */,
+				EBE22376241972F5001772AF /* Iconic (iOS)UITests.xctest */,
+				EBE223B72419758B001772AF /* Watch.app */,
+				EBE223C32419758C001772AF /* Watch Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -135,12 +275,87 @@
 			path = IconicUITests;
 			sourceTree = "<group>";
 		};
+		EBE22357241972F2001772AF /* Iconic (iOS) */ = {
+			isa = PBXGroup;
+			children = (
+				EBE22358241972F2001772AF /* AppDelegate.swift */,
+				EBE2235A241972F2001772AF /* SceneDelegate.swift */,
+				EBE2235C241972F2001772AF /* ContentView.swift */,
+				EBE2235E241972F4001772AF /* Assets.xcassets */,
+				EBE22363241972F5001772AF /* LaunchScreen.storyboard */,
+				EBE22366241972F5001772AF /* Info.plist */,
+				EBE22360241972F5001772AF /* Preview Content */,
+			);
+			path = "Iconic (iOS)";
+			sourceTree = "<group>";
+		};
+		EBE22360241972F5001772AF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EBE22361241972F5001772AF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EBE2236E241972F5001772AF /* Iconic (iOS)Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EBE2236F241972F5001772AF /* Iconic__iOS_Tests.swift */,
+				EBE22371241972F5001772AF /* Info.plist */,
+			);
+			path = "Iconic (iOS)Tests";
+			sourceTree = "<group>";
+		};
+		EBE22379241972F5001772AF /* Iconic (iOS)UITests */ = {
+			isa = PBXGroup;
+			children = (
+				EBE2237A241972F5001772AF /* Iconic__iOS_UITests.swift */,
+				EBE2237C241972F5001772AF /* Info.plist */,
+			);
+			path = "Iconic (iOS)UITests";
+			sourceTree = "<group>";
+		};
+		EBE223B82419758B001772AF /* Watch */ = {
+			isa = PBXGroup;
+			children = (
+				EBE223B92419758B001772AF /* Interface.storyboard */,
+				EBE223BC2419758C001772AF /* Assets.xcassets */,
+				EBE223BE2419758C001772AF /* Info.plist */,
+			);
+			path = Watch;
+			sourceTree = "<group>";
+		};
+		EBE223C72419758C001772AF /* Watch Extension */ = {
+			isa = PBXGroup;
+			children = (
+				EBE223C82419758C001772AF /* ContentView.swift */,
+				EBE223CA2419758C001772AF /* HostingController.swift */,
+				EBE223CC2419758C001772AF /* ExtensionDelegate.swift */,
+				EBE223CE2419758C001772AF /* NotificationController.swift */,
+				EBE223D02419758D001772AF /* NotificationView.swift */,
+				EBE223D22419758D001772AF /* ComplicationController.swift */,
+				EBE223D42419758D001772AF /* Assets.xcassets */,
+				EBE223D92419758D001772AF /* Info.plist */,
+				EBE223DA2419758D001772AF /* PushNotificationPayload.apns */,
+				EBE223D62419758D001772AF /* Preview Content */,
+			);
+			path = "Watch Extension";
+			sourceTree = "<group>";
+		};
+		EBE223D62419758D001772AF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EBE223D72419758D001772AF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EB97416524105102008BA905 /* Iconic */ = {
+		EB97416524105102008BA905 /* Iconic (Mac) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EB97418F24105105008BA905 /* Build configuration list for PBXNativeTarget "Iconic" */;
+			buildConfigurationList = EB97418F24105105008BA905 /* Build configuration list for PBXNativeTarget "Iconic (Mac)" */;
 			buildPhases = (
 				EB97416224105102008BA905 /* Sources */,
 				EB97416324105102008BA905 /* Frameworks */,
@@ -150,14 +365,14 @@
 			);
 			dependencies = (
 			);
-			name = Iconic;
+			name = "Iconic (Mac)";
 			productName = Iconic;
-			productReference = EB97416624105102008BA905 /* Iconic.app */;
+			productReference = EB97416624105102008BA905 /* Iconic (Mac).app */;
 			productType = "com.apple.product-type.application";
 		};
-		EB97417A24105105008BA905 /* IconicTests */ = {
+		EB97417A24105105008BA905 /* Iconic (Mac) Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EB97419224105105008BA905 /* Build configuration list for PBXNativeTarget "IconicTests" */;
+			buildConfigurationList = EB97419224105105008BA905 /* Build configuration list for PBXNativeTarget "Iconic (Mac) Tests" */;
 			buildPhases = (
 				EB97417724105105008BA905 /* Sources */,
 				EB97417824105105008BA905 /* Frameworks */,
@@ -168,14 +383,14 @@
 			dependencies = (
 				EB97417D24105105008BA905 /* PBXTargetDependency */,
 			);
-			name = IconicTests;
+			name = "Iconic (Mac) Tests";
 			productName = IconicTests;
-			productReference = EB97417B24105105008BA905 /* IconicTests.xctest */;
+			productReference = EB97417B24105105008BA905 /* Iconic (Mac) Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		EB97418524105105008BA905 /* IconicUITests */ = {
+		EB97418524105105008BA905 /* Iconic (Mac) UITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EB97419524105105008BA905 /* Build configuration list for PBXNativeTarget "IconicUITests" */;
+			buildConfigurationList = EB97419524105105008BA905 /* Build configuration list for PBXNativeTarget "Iconic (Mac) UITests" */;
 			buildPhases = (
 				EB97418224105105008BA905 /* Sources */,
 				EB97418324105105008BA905 /* Frameworks */,
@@ -186,10 +401,99 @@
 			dependencies = (
 				EB97418824105105008BA905 /* PBXTargetDependency */,
 			);
-			name = IconicUITests;
+			name = "Iconic (Mac) UITests";
 			productName = IconicUITests;
-			productReference = EB97418624105105008BA905 /* IconicUITests.xctest */;
+			productReference = EB97418624105105008BA905 /* Iconic (Mac) UITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		EBE22355241972F2001772AF /* Iconic (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBE22383241972F5001772AF /* Build configuration list for PBXNativeTarget "Iconic (iOS)" */;
+			buildPhases = (
+				EBE22352241972F2001772AF /* Sources */,
+				EBE22353241972F2001772AF /* Frameworks */,
+				EBE22354241972F2001772AF /* Resources */,
+				EBE223B42419731F001772AF /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBE223DC2419758D001772AF /* PBXTargetDependency */,
+			);
+			name = "Iconic (iOS)";
+			productName = "Iconic (iOS)";
+			productReference = EBE22356241972F2001772AF /* Iconic (iOS).app */;
+			productType = "com.apple.product-type.application";
+		};
+		EBE2236A241972F5001772AF /* Iconic (iOS)Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBE22384241972F5001772AF /* Build configuration list for PBXNativeTarget "Iconic (iOS)Tests" */;
+			buildPhases = (
+				EBE22367241972F5001772AF /* Sources */,
+				EBE22368241972F5001772AF /* Frameworks */,
+				EBE22369241972F5001772AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBE2236D241972F5001772AF /* PBXTargetDependency */,
+			);
+			name = "Iconic (iOS)Tests";
+			productName = "Iconic (iOS)Tests";
+			productReference = EBE2236B241972F5001772AF /* Iconic (iOS)Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EBE22375241972F5001772AF /* Iconic (iOS)UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBE22385241972F5001772AF /* Build configuration list for PBXNativeTarget "Iconic (iOS)UITests" */;
+			buildPhases = (
+				EBE22372241972F5001772AF /* Sources */,
+				EBE22373241972F5001772AF /* Frameworks */,
+				EBE22374241972F5001772AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBE22378241972F5001772AF /* PBXTargetDependency */,
+			);
+			name = "Iconic (iOS)UITests";
+			productName = "Iconic (iOS)UITests";
+			productReference = EBE22376241972F5001772AF /* Iconic (iOS)UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		EBE223B62419758B001772AF /* Watch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBE223E22419758D001772AF /* Build configuration list for PBXNativeTarget "Watch" */;
+			buildPhases = (
+				EBE223B52419758B001772AF /* Resources */,
+				EBE223E12419758D001772AF /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBE223C62419758C001772AF /* PBXTargetDependency */,
+			);
+			name = Watch;
+			productName = Watch;
+			productReference = EBE223B72419758B001772AF /* Watch.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		EBE223C22419758C001772AF /* Watch Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBE223DE2419758D001772AF /* Build configuration list for PBXNativeTarget "Watch Extension" */;
+			buildPhases = (
+				EBE223BF2419758C001772AF /* Sources */,
+				EBE223C02419758C001772AF /* Frameworks */,
+				EBE223C12419758C001772AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Watch Extension";
+			productName = "Watch Extension";
+			productReference = EBE223C32419758C001772AF /* Watch Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -212,6 +516,23 @@
 						CreatedOnToolsVersion = 11.3.1;
 						TestTargetID = EB97416524105102008BA905;
 					};
+					EBE22355241972F2001772AF = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					EBE2236A241972F5001772AF = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = EBE22355241972F2001772AF;
+					};
+					EBE22375241972F5001772AF = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = EBE22355241972F2001772AF;
+					};
+					EBE223B62419758B001772AF = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					EBE223C22419758C001772AF = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
 				};
 			};
 			buildConfigurationList = EB97416124105102008BA905 /* Build configuration list for PBXProject "Iconic" */;
@@ -227,9 +548,14 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EB97416524105102008BA905 /* Iconic */,
-				EB97417A24105105008BA905 /* IconicTests */,
-				EB97418524105105008BA905 /* IconicUITests */,
+				EB97416524105102008BA905 /* Iconic (Mac) */,
+				EB97417A24105105008BA905 /* Iconic (Mac) Tests */,
+				EB97418524105105008BA905 /* Iconic (Mac) UITests */,
+				EBE22355241972F2001772AF /* Iconic (iOS) */,
+				EBE2236A241972F5001772AF /* Iconic (iOS)Tests */,
+				EBE22375241972F5001772AF /* Iconic (iOS)UITests */,
+				EBE223B62419758B001772AF /* Watch */,
+				EBE223C22419758C001772AF /* Watch Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -256,6 +582,48 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBE22354241972F2001772AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBE22365241972F5001772AF /* LaunchScreen.storyboard in Resources */,
+				EBE22362241972F5001772AF /* Preview Assets.xcassets in Resources */,
+				EBE2235F241972F4001772AF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBE22369241972F5001772AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBE22374241972F5001772AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBE223B52419758B001772AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBE223BD2419758C001772AF /* Assets.xcassets in Resources */,
+				EBE223BB2419758B001772AF /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBE223C12419758C001772AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBE223D82419758D001772AF /* Preview Assets.xcassets in Resources */,
+				EBE223D52419758D001772AF /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,18 +655,77 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EBE22352241972F2001772AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBE22359241972F2001772AF /* AppDelegate.swift in Sources */,
+				EBE2235B241972F2001772AF /* SceneDelegate.swift in Sources */,
+				EBE2235D241972F2001772AF /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBE22367241972F5001772AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBE22370241972F5001772AF /* Iconic__iOS_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBE22372241972F5001772AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBE2237B241972F5001772AF /* Iconic__iOS_UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBE223BF2419758C001772AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBE223CB2419758C001772AF /* HostingController.swift in Sources */,
+				EBE223C92419758C001772AF /* ContentView.swift in Sources */,
+				EBE223CF2419758C001772AF /* NotificationController.swift in Sources */,
+				EBE223CD2419758C001772AF /* ExtensionDelegate.swift in Sources */,
+				EBE223D12419758D001772AF /* NotificationView.swift in Sources */,
+				EBE223D32419758D001772AF /* ComplicationController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
 		EB97417D24105105008BA905 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = EB97416524105102008BA905 /* Iconic */;
+			target = EB97416524105102008BA905 /* Iconic (Mac) */;
 			targetProxy = EB97417C24105105008BA905 /* PBXContainerItemProxy */;
 		};
 		EB97418824105105008BA905 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = EB97416524105102008BA905 /* Iconic */;
+			target = EB97416524105102008BA905 /* Iconic (Mac) */;
 			targetProxy = EB97418724105105008BA905 /* PBXContainerItemProxy */;
+		};
+		EBE2236D241972F5001772AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBE22355241972F2001772AF /* Iconic (iOS) */;
+			targetProxy = EBE2236C241972F5001772AF /* PBXContainerItemProxy */;
+		};
+		EBE22378241972F5001772AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBE22355241972F2001772AF /* Iconic (iOS) */;
+			targetProxy = EBE22377241972F5001772AF /* PBXContainerItemProxy */;
+		};
+		EBE223C62419758C001772AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBE223C22419758C001772AF /* Watch Extension */;
+			targetProxy = EBE223C52419758C001772AF /* PBXContainerItemProxy */;
+		};
+		EBE223DC2419758D001772AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBE223B62419758B001772AF /* Watch */;
+			targetProxy = EBE223DB2419758D001772AF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -309,6 +736,22 @@
 				EB97417324105105008BA905 /* Base */,
 			);
 			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EBE22363241972F5001772AF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBE22364241972F5001772AF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		EBE223B92419758B001772AF /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBE223BA2419758B001772AF /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -444,7 +887,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				PRODUCT_BUNDLE_IDENTIFIER = am.pedro.Iconic.Iconic;
+				PRODUCT_BUNDLE_IDENTIFIER = am.pedro.Iconic.Mac;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -467,7 +910,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				PRODUCT_BUNDLE_IDENTIFIER = am.pedro.Iconic.Iconic;
+				PRODUCT_BUNDLE_IDENTIFIER = am.pedro.Iconic.Mac;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -557,6 +1000,231 @@
 			};
 			name = Release;
 		};
+		EBE2237D241972F5001772AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Iconic (iOS)/Preview Content\"";
+				DEVELOPMENT_TEAM = RBBR2ZQ4L2;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Iconic (iOS)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = am.pedro.Iconic.iOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EBE2237E241972F5001772AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Iconic (iOS)/Preview Content\"";
+				DEVELOPMENT_TEAM = RBBR2ZQ4L2;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Iconic (iOS)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = am.pedro.Iconic.iOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EBE2237F241972F5001772AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RBBR2ZQ4L2;
+				INFOPLIST_FILE = "Iconic (iOS)Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "am.pedro.Iconic.Iconic--iOS-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Iconic (iOS).app/Iconic (iOS)";
+			};
+			name = Debug;
+		};
+		EBE22380241972F5001772AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RBBR2ZQ4L2;
+				INFOPLIST_FILE = "Iconic (iOS)Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "am.pedro.Iconic.Iconic--iOS-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Iconic (iOS).app/Iconic (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EBE22381241972F5001772AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RBBR2ZQ4L2;
+				INFOPLIST_FILE = "Iconic (iOS)UITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "am.pedro.Iconic.Iconic--iOS-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Iconic (iOS)";
+			};
+			name = Debug;
+		};
+		EBE22382241972F5001772AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RBBR2ZQ4L2;
+				INFOPLIST_FILE = "Iconic (iOS)UITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "am.pedro.Iconic.Iconic--iOS-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Iconic (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EBE223DF2419758D001772AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Watch Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = RBBR2ZQ4L2;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Watch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = am.pedro.Iconic.iOS.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Debug;
+		};
+		EBE223E02419758D001772AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Watch Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = RBBR2ZQ4L2;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Watch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = am.pedro.Iconic.iOS.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Release;
+		};
+		EBE223E32419758D001772AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RBBR2ZQ4L2;
+				IBSC_MODULE = Watch_Extension;
+				INFOPLIST_FILE = Watch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = am.pedro.Iconic.iOS.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Debug;
+		};
+		EBE223E42419758D001772AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RBBR2ZQ4L2;
+				IBSC_MODULE = Watch_Extension;
+				INFOPLIST_FILE = Watch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = am.pedro.Iconic.iOS.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -569,7 +1237,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EB97418F24105105008BA905 /* Build configuration list for PBXNativeTarget "Iconic" */ = {
+		EB97418F24105105008BA905 /* Build configuration list for PBXNativeTarget "Iconic (Mac)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EB97419024105105008BA905 /* Debug */,
@@ -578,7 +1246,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EB97419224105105008BA905 /* Build configuration list for PBXNativeTarget "IconicTests" */ = {
+		EB97419224105105008BA905 /* Build configuration list for PBXNativeTarget "Iconic (Mac) Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EB97419324105105008BA905 /* Debug */,
@@ -587,11 +1255,56 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EB97419524105105008BA905 /* Build configuration list for PBXNativeTarget "IconicUITests" */ = {
+		EB97419524105105008BA905 /* Build configuration list for PBXNativeTarget "Iconic (Mac) UITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EB97419624105105008BA905 /* Debug */,
 				EB97419724105105008BA905 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBE22383241972F5001772AF /* Build configuration list for PBXNativeTarget "Iconic (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBE2237D241972F5001772AF /* Debug */,
+				EBE2237E241972F5001772AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBE22384241972F5001772AF /* Build configuration list for PBXNativeTarget "Iconic (iOS)Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBE2237F241972F5001772AF /* Debug */,
+				EBE22380241972F5001772AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBE22385241972F5001772AF /* Build configuration list for PBXNativeTarget "Iconic (iOS)UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBE22381241972F5001772AF /* Debug */,
+				EBE22382241972F5001772AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBE223DE2419758D001772AF /* Build configuration list for PBXNativeTarget "Watch Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBE223DF2419758D001772AF /* Debug */,
+				EBE223E02419758D001772AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBE223E22419758D001772AF /* Build configuration list for PBXNativeTarget "Watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBE223E32419758D001772AF /* Debug */,
+				EBE223E42419758D001772AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
